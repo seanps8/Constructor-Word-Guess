@@ -1,4 +1,7 @@
-function Letter(char, guessed) {
-    this.char = char;
+function Letter(letter) {
+    this.letter = letter;
     this.guessed = false;
 }
+
+
+module.exports = Letter;
